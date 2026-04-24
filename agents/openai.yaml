@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Stats"
+  short_description: "Render local Codex usage dashboards from session logs"
+  default_prompt: "Use Codex Stats to show a local usage heatmap, recent token activity, streaks, and model breakdowns."

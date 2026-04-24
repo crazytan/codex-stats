@@ -1,0 +1,21 @@
+{
+  "name": "codex-stats",
+  "interface": {
+    "displayName": "Codex Stats"
+  },
+  "plugins": [
+    {
+      "name": "codex-stats",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/crazytan/codex-stats.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

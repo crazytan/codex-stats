@@ -1,0 +1,35 @@
+{
+  "name": "codex-stats",
+  "version": "0.1.0",
+  "description": "Local usage analytics and a heatmap for Codex CLI session logs.",
+  "author": {
+    "name": "crazytan",
+    "url": "https://github.com/crazytan"
+  },
+  "homepage": "https://github.com/crazytan/codex-stats#readme",
+  "repository": "https://github.com/crazytan/codex-stats",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "analytics",
+    "heatmap"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex Stats",
+    "shortDescription": "Render a local usage dashboard from ~/.codex session logs",
+    "longDescription": "Codex Stats is a local-first MVP plugin that reads Codex session logs from ~/.codex, aggregates per-day token activity, and renders a GitHub-style heatmap with streak and model summary stats.",
+    "developerName": "crazytan",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Show my local Codex usage heatmap.",
+      "Summarize my Codex activity for the last 30 days.",
+      "Which model do I use most in Codex?"
+    ],
+    "brandColor": "#0F766E"
+  }
+}

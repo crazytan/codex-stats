@@ -1,0 +1,23 @@
+{
+  "name": "codex-stats",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Local usage analytics and heatmap for Codex CLI session logs.",
+  "homepage": "https://github.com/crazytan/codex-stats#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crazytan/codex-stats.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crazytan/codex-stats/issues"
+  },
+  "license": "MIT",
+  "bin": {
+    "codex-stats": "./scripts/codex-stats.mjs"
+  },
+  "scripts": {
+    "stats": "node ./scripts/codex-stats.mjs",
+    "install:local": "node ./scripts/install-local-plugin.mjs",
+    "test": "node --test"
+  }
+}
