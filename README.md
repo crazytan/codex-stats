@@ -29,7 +29,7 @@ Most active day: Apr 12           Current streak: 3 days
 - Favorite-model and model-breakdown views
 - Active-day, streak, session-count, and longest-session stats
 - ANSI color themes plus mono and ASCII output modes
-- Codex plugin skill entrypoint via `$codex-stats`
+- Codex plugin skill entrypoint via `$codex-stats:stats`
 
 ## Use In Codex
 
@@ -48,10 +48,10 @@ Then open the plugin directory and install `Codex Stats`:
 Restart Codex after installation, then call the plugin with:
 
 ```text
-$codex-stats
+$codex-stats:stats
 ```
 
-The reliable Codex entrypoint today is the skill invocation `$codex-stats`. The `commands/` files are included as experimental slash-command definitions, but local plugin slash-command discovery does not currently appear to be exposed by Codex.
+The reliable Codex entrypoint today is the skill invocation `$codex-stats:stats`. The `commands/` files are included as experimental slash-command definitions, but local plugin slash-command discovery does not currently appear to be exposed by Codex.
 
 ## Manual CLI
 
@@ -121,7 +121,7 @@ This repository includes:
 - `.codex-plugin/plugin.json`
 - `.agents/plugins/marketplace.json`
 - `agents/openai.yaml`
-- `skills/codex-stats/SKILL.md`
+- `skills/stats/SKILL.md`
 - `commands/stats.md`
 - `commands/models.md`
 - `scripts/codex-stats.mjs`

@@ -121,7 +121,7 @@ async function main() {
       "Restart Codex to reload local plugins.",
       "",
       "Suggested usage after restart:",
-      "  $codex-stats",
+      "  $codex-stats:stats",
       "",
       "Experimental command definitions are packaged but may not be discoverable:",
       "  /codex-stats:stats",
